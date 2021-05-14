@@ -16,7 +16,8 @@ public class MyMathCalc {
     public int multiply(int a,int b){
         return 0;
     }
-    public int divide(int a,int b){
+    public float divide(int a,int b){
+
         return 0;
     }
 }
