@@ -11,15 +11,19 @@ public class MyMathCalc {
 
 
     public int add(int a,int b){
-        return 0;
+
+        return a + b;
     }
     public int multiply(int a,int b){
-        return 0;
+
+        return a*b;
     }
 
-    public double divide(int a,int b){
-  
+    public double divide(double a, double b){
+        if (b==0)
+            throw new ArithmeticException("get error division by " + 0);
 
-        return 0;
+
+        return a/b;
     }
 }
